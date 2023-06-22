@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54030" started-at="2023-06-16T03:20:25Z" finished-at="2023-06-16T03:21:19Z">
+    <groups>
+    </groups>
+    <test name="FacebookTest" duration-ms="35141" started-at="2023-06-16T03:20:25Z" finished-at="2023-06-16T03:21:00Z">
+      <class name="testcases.FacebookTest">
+        <test-method status="PASS" signature="generateLogReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="generateLogReport" is-config="true" duration-ms="1035" started-at="2023-06-16T08:50:25Z" finished-at="2023-06-16T08:50:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateLogReport -->
+        <test-method status="PASS" signature="makeWBConnection(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="makeWBConnection" is-config="true" duration-ms="1843" started-at="2023-06-16T08:50:26Z" finished-at="2023-06-16T08:50:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\core\selenium\Book3.xls]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sheet1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeWBConnection -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="openBrowser" is-config="true" duration-ms="13982" started-at="2023-06-16T08:50:28Z" finished-at="2023-06-16T08:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="facebooklogintest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="facebooklogintest" duration-ms="777" started-at="2023-06-16T08:50:42Z" data-provider="facebookdata" finished-at="2023-06-16T08:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saxena]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooklogintest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="closeBrowser" is-config="true" duration-ms="1448" started-at="2023-06-16T08:50:42Z" finished-at="2023-06-16T08:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="openBrowser" is-config="true" duration-ms="5890" started-at="2023-06-16T08:50:44Z" finished-at="2023-06-16T08:50:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="facebooklogintest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="facebooklogintest" duration-ms="496" started-at="2023-06-16T08:50:50Z" data-provider="facebookdata" finished-at="2023-06-16T08:50:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[taneja]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooklogintest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="closeBrowser" is-config="true" duration-ms="927" started-at="2023-06-16T08:50:50Z" finished-at="2023-06-16T08:50:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="openBrowser" is-config="true" duration-ms="6147" started-at="2023-06-16T08:50:51Z" finished-at="2023-06-16T08:50:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="facebooklogintest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="facebooklogintest" duration-ms="514" started-at="2023-06-16T08:50:57Z" data-provider="facebookdata" finished-at="2023-06-16T08:50:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooklogintest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="closeBrowser" is-config="true" duration-ms="981" started-at="2023-06-16T08:50:58Z" finished-at="2023-06-16T08:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeWBConnection()[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="closeWBConnection" is-config="true" duration-ms="1" started-at="2023-06-16T08:50:59Z" finished-at="2023-06-16T08:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWBConnection -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="closeReport" is-config="true" duration-ms="928" started-at="2023-06-16T08:50:59Z" finished-at="2023-06-16T08:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- testcases.FacebookTest -->
+    </test> <!-- FacebookTest -->
+    <test name="RMTest" duration-ms="18780" started-at="2023-06-16T03:21:00Z" finished-at="2023-06-16T03:21:19Z">
+      <class name="testcases.RMTest">
+        <test-method status="PASS" signature="generateLogReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="generateLogReport" is-config="true" duration-ms="13" started-at="2023-06-16T08:51:00Z" finished-at="2023-06-16T08:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rmlog]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateLogReport -->
+        <test-method status="PASS" signature="makeWBConnection(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="makeWBConnection" is-config="true" duration-ms="27" started-at="2023-06-16T08:51:00Z" finished-at="2023-06-16T08:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\core\selenium\Book3.xls]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sheet1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeWBConnection -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="openBrowser" is-config="true" duration-ms="5098" started-at="2023-06-16T08:51:00Z" finished-at="2023-06-16T08:51:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.rminfotechsolutions.com/videologinRMInfotech.php#loaded]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rmlogin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="rmlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="rmlogin" duration-ms="762" started-at="2023-06-16T08:51:05Z" data-provider="rmdata" finished-at="2023-06-16T08:51:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saxena]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rmlogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.RMTest@57fffcd7]" name="closeBrowser" is-config="true" duration-ms="801" started-at="2023-06-16T08:51:06Z" finished-at="2023-06-16T08:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="openBrowser" is-config="true" duration-ms="4182" started-at="2023-06-16T08:51:07Z" finished-at="2023-06-16T08:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.rminfotechsolutions.com/videologinRMInfotech.php#loaded]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rmlogin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="rmlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="rmlogin" duration-ms="712" started-at="2023-06-16T08:51:11Z" data-provider="rmdata" finished-at="2023-06-16T08:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[taneja]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rmlogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.RMTest@57fffcd7]" name="closeBrowser" is-config="true" duration-ms="871" started-at="2023-06-16T08:51:11Z" finished-at="2023-06-16T08:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="openBrowser" is-config="true" duration-ms="4658" started-at="2023-06-16T08:51:12Z" finished-at="2023-06-16T08:51:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.rminfotechsolutions.com/videologinRMInfotech.php#loaded]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rmlogin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="rmlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="rmlogin" duration-ms="663" started-at="2023-06-16T08:51:17Z" data-provider="rmdata" finished-at="2023-06-16T08:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rmlogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.RMTest@57fffcd7]" name="closeBrowser" is-config="true" duration-ms="855" started-at="2023-06-16T08:51:18Z" finished-at="2023-06-16T08:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeWBConnection()[pri:0, instance:testcases.RMTest@57fffcd7]" name="closeWBConnection" is-config="true" duration-ms="1" started-at="2023-06-16T08:51:19Z" finished-at="2023-06-16T08:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWBConnection -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:testcases.RMTest@57fffcd7]" name="closeReport" is-config="true" duration-ms="112" started-at="2023-06-16T08:51:19Z" finished-at="2023-06-16T08:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- testcases.RMTest -->
+    </test> <!-- RMTest -->
+  </suite> <!-- Suite -->
+</testng-results>

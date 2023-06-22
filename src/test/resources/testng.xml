@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="FacebookTest">
+  <parameter name="browser" value="chrome" />
+  <parameter name="url" value="https://www.facebook.com/" />
+  <parameter name="scrshot" value="facebook" />
+  <parameter name="wbpath" value="C:\core\selenium\Book3.xls" />
+  <parameter name="sheetname" value="Sheet1" />
+  <parameter name="filename" value="facebook" />
+  <parameter name="key" value="true" />
+    <classes>
+      <class name="testcases.FacebookTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="RMTest">
+  <parameter name="browser" value="chrome" />
+  <parameter name="url" value="http://www.rminfotechsolutions.com/videologinRMInfotech.php#loaded" />
+  <parameter name="scrshot" value="rmlogin" />
+  <parameter name="wbpath" value="C:\core\selenium\Book3.xls" />
+  <parameter name="sheetname" value="Sheet1" />
+  <parameter name="filename" value="rmlog" />
+  <parameter name="key" value="true" />
+  
+  <classes>
+   <class name="testcases.RMTest"/>
+  </classes>
+  </test>
+  
+</suite> <!-- Suite -->
