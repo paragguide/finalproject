@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="54030" started-at="2023-06-16T03:20:25Z" finished-at="2023-06-16T03:21:19Z">
+  <suite started-at="2023-06-22T02:53:55Z" name="Suite" finished-at="2023-06-22T02:54:29Z" duration-ms="34115">
     <groups>
     </groups>
-    <test name="FacebookTest" duration-ms="35141" started-at="2023-06-16T03:20:25Z" finished-at="2023-06-16T03:21:00Z">
+    <test started-at="2023-06-22T02:53:55Z" name="FacebookTest" finished-at="2023-06-22T02:54:14Z" duration-ms="19659">
       <class name="testcases.FacebookTest">
-        <test-method status="PASS" signature="generateLogReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="generateLogReport" is-config="true" duration-ms="1035" started-at="2023-06-16T08:50:25Z" finished-at="2023-06-16T08:50:26Z">
+        <test-method is-config="true" signature="generateLogReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:23:55Z" name="generateLogReport" finished-at="2023-06-22T08:23:55Z" duration-ms="288" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateLogReport -->
-        <test-method status="PASS" signature="makeWBConnection(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="makeWBConnection" is-config="true" duration-ms="1843" started-at="2023-06-16T08:50:26Z" finished-at="2023-06-16T08:50:28Z">
+        <test-method is-config="true" signature="makeWBConnection(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:23:55Z" name="makeWBConnection" finished-at="2023-06-22T08:23:55Z" duration-ms="317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeWBConnection -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="openBrowser" is-config="true" duration-ms="13982" started-at="2023-06-16T08:50:28Z" finished-at="2023-06-16T08:50:42Z">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:23:55Z" name="openBrowser" finished-at="2023-06-22T08:24:02Z" duration-ms="6194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="facebooklogintest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="facebooklogintest" duration-ms="777" started-at="2023-06-16T08:50:42Z" data-provider="facebookdata" finished-at="2023-06-16T08:50:42Z">
+        <test-method signature="facebooklogintest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:24:02Z" name="facebooklogintest" data-provider="facebookdata" finished-at="2023-06-22T08:24:02Z" duration-ms="228" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,11 +76,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebooklogintest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="closeBrowser" is-config="true" duration-ms="1448" started-at="2023-06-16T08:50:42Z" finished-at="2023-06-16T08:50:44Z">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:24:02Z" name="closeBrowser" finished-at="2023-06-22T08:24:02Z" duration-ms="641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="openBrowser" is-config="true" duration-ms="5890" started-at="2023-06-16T08:50:44Z" finished-at="2023-06-16T08:50:50Z">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:24:02Z" name="openBrowser" finished-at="2023-06-22T08:24:07Z" duration-ms="4840" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="facebooklogintest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="facebooklogintest" duration-ms="496" started-at="2023-06-16T08:50:50Z" data-provider="facebookdata" finished-at="2023-06-16T08:50:50Z">
+        <test-method signature="facebooklogintest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:24:07Z" name="facebooklogintest" data-provider="facebookdata" finished-at="2023-06-22T08:24:08Z" duration-ms="239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,11 +117,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebooklogintest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="closeBrowser" is-config="true" duration-ms="927" started-at="2023-06-16T08:50:50Z" finished-at="2023-06-16T08:50:51Z">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:24:08Z" name="closeBrowser" finished-at="2023-06-22T08:24:08Z" duration-ms="647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="openBrowser" is-config="true" duration-ms="6147" started-at="2023-06-16T08:50:51Z" finished-at="2023-06-16T08:50:57Z">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:24:08Z" name="openBrowser" finished-at="2023-06-22T08:24:13Z" duration-ms="5106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="facebooklogintest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="facebooklogintest" duration-ms="514" started-at="2023-06-16T08:50:57Z" data-provider="facebookdata" finished-at="2023-06-16T08:50:58Z">
+        <test-method signature="facebooklogintest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:24:13Z" name="facebooklogintest" data-provider="facebookdata" finished-at="2023-06-22T08:24:14Z" duration-ms="231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,23 +158,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebooklogintest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="closeBrowser" is-config="true" duration-ms="981" started-at="2023-06-16T08:50:58Z" finished-at="2023-06-16T08:50:59Z">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:24:14Z" name="closeBrowser" finished-at="2023-06-22T08:24:14Z" duration-ms="623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeWBConnection()[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="closeWBConnection" is-config="true" duration-ms="1" started-at="2023-06-16T08:50:59Z" finished-at="2023-06-16T08:50:59Z">
+        <test-method is-config="true" signature="closeWBConnection()[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:24:14Z" name="closeWBConnection" finished-at="2023-06-22T08:24:14Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWBConnection -->
-        <test-method status="PASS" signature="closeReport()[pri:0, instance:testcases.FacebookTest@5e3a8624]" name="closeReport" is-config="true" duration-ms="928" started-at="2023-06-16T08:50:59Z" finished-at="2023-06-16T08:51:00Z">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:testcases.FacebookTest@197d671]" started-at="2023-06-22T08:24:14Z" name="closeReport" finished-at="2023-06-22T08:24:14Z" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
       </class> <!-- testcases.FacebookTest -->
     </test> <!-- FacebookTest -->
-    <test name="RMTest" duration-ms="18780" started-at="2023-06-16T03:21:00Z" finished-at="2023-06-16T03:21:19Z">
+    <test started-at="2023-06-22T02:54:14Z" name="RMTest" finished-at="2023-06-22T02:54:29Z" duration-ms="14432">
       <class name="testcases.RMTest">
-        <test-method status="PASS" signature="generateLogReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="generateLogReport" is-config="true" duration-ms="13" started-at="2023-06-16T08:51:00Z" finished-at="2023-06-16T08:51:00Z">
+        <test-method is-config="true" signature="generateLogReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:14Z" name="generateLogReport" finished-at="2023-06-22T08:24:14Z" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -190,7 +190,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateLogReport -->
-        <test-method status="PASS" signature="makeWBConnection(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="makeWBConnection" is-config="true" duration-ms="27" started-at="2023-06-16T08:51:00Z" finished-at="2023-06-16T08:51:00Z">
+        <test-method is-config="true" signature="makeWBConnection(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:14Z" name="makeWBConnection" finished-at="2023-06-22T08:24:14Z" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -206,7 +206,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeWBConnection -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="openBrowser" is-config="true" duration-ms="5098" started-at="2023-06-16T08:51:00Z" finished-at="2023-06-16T08:51:05Z">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:14Z" name="openBrowser" finished-at="2023-06-22T08:24:18Z" duration-ms="3849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -227,7 +227,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="rmlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="rmlogin" duration-ms="762" started-at="2023-06-16T08:51:05Z" data-provider="rmdata" finished-at="2023-06-16T08:51:06Z">
+        <test-method signature="rmlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:18Z" name="rmlogin" data-provider="rmdata" finished-at="2023-06-22T08:24:19Z" duration-ms="345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -243,11 +243,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rmlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.RMTest@57fffcd7]" name="closeBrowser" is-config="true" duration-ms="801" started-at="2023-06-16T08:51:06Z" finished-at="2023-06-16T08:51:07Z">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:19Z" name="closeBrowser" finished-at="2023-06-22T08:24:19Z" duration-ms="630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="openBrowser" is-config="true" duration-ms="4182" started-at="2023-06-16T08:51:07Z" finished-at="2023-06-16T08:51:11Z">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:19Z" name="openBrowser" finished-at="2023-06-22T08:24:23Z" duration-ms="3861" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -268,7 +268,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="rmlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="rmlogin" duration-ms="712" started-at="2023-06-16T08:51:11Z" data-provider="rmdata" finished-at="2023-06-16T08:51:11Z">
+        <test-method signature="rmlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:23Z" name="rmlogin" data-provider="rmdata" finished-at="2023-06-22T08:24:24Z" duration-ms="504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -284,11 +284,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rmlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.RMTest@57fffcd7]" name="closeBrowser" is-config="true" duration-ms="871" started-at="2023-06-16T08:51:11Z" finished-at="2023-06-16T08:51:12Z">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:24Z" name="closeBrowser" finished-at="2023-06-22T08:24:24Z" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="openBrowser" is-config="true" duration-ms="4658" started-at="2023-06-16T08:51:12Z" finished-at="2023-06-16T08:51:17Z">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:24Z" name="openBrowser" finished-at="2023-06-22T08:24:28Z" duration-ms="3508" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,7 +309,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="rmlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@57fffcd7]" name="rmlogin" duration-ms="663" started-at="2023-06-16T08:51:17Z" data-provider="rmdata" finished-at="2023-06-16T08:51:18Z">
+        <test-method signature="rmlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:28Z" name="rmlogin" data-provider="rmdata" finished-at="2023-06-22T08:24:28Z" duration-ms="353" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -325,15 +325,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rmlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.RMTest@57fffcd7]" name="closeBrowser" is-config="true" duration-ms="855" started-at="2023-06-16T08:51:18Z" finished-at="2023-06-16T08:51:19Z">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:28Z" name="closeBrowser" finished-at="2023-06-22T08:24:29Z" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeWBConnection()[pri:0, instance:testcases.RMTest@57fffcd7]" name="closeWBConnection" is-config="true" duration-ms="1" started-at="2023-06-16T08:51:19Z" finished-at="2023-06-16T08:51:19Z">
+        <test-method is-config="true" signature="closeWBConnection()[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:29Z" name="closeWBConnection" finished-at="2023-06-22T08:24:29Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWBConnection -->
-        <test-method status="PASS" signature="closeReport()[pri:0, instance:testcases.RMTest@57fffcd7]" name="closeReport" is-config="true" duration-ms="112" started-at="2023-06-16T08:51:19Z" finished-at="2023-06-16T08:51:19Z">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:testcases.RMTest@222114ba]" started-at="2023-06-22T08:24:29Z" name="closeReport" finished-at="2023-06-22T08:24:29Z" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
